@@ -1,1 +1,30 @@
-<h1> hola mundo</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Laberinto 🏰</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <label for="opciones">SELECIONE UNA DIFICULTA:</label>
+    <select id="opciones">
+        <option value="opcion1"> 🌱 FACIL</option>
+         <option value="opcion2">🔥 DIFICIL</option>
+         <option value="opcion3">💀 EXTREMO</option>
+
+    </select>
+    <button id="enviar">Escoge</button>
+    <div id="timerDisplay">Tiempo: 0 s</div>
+    <canvas id="mazeCanvas" width="620" height="620" style="border:1px solid #000000;"></canvas>
+    <script src="maze.js"></script>
+    <script src="timer.js"></script>
+
+</body>
+
+</html>
